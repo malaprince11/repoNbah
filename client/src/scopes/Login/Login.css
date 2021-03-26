@@ -1,0 +1,21 @@
+.Login {
+  min-width: 40%;
+  margin: auto;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+form > input,
+form > button {
+  max-width: 130px;
+  min-height: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+  margin-bottom: 1rem;
+}
